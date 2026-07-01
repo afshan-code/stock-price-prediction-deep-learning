@@ -1,0 +1,42 @@
+{
+    "LSTM": {
+        "RMSE": 6.12,
+        "MAE": 5.01,
+        "R2": 0.94,
+        "best_hyperparameters": {
+            "hidden_size": 32,
+            "num_layers": 1,
+            "dropout": 0.1
+        }
+    },
+    "BiLSTM": {
+        "RMSE": 6.3,
+        "MAE": 5.2,
+        "R2": 0.93,
+        "best_hyperparameters": {
+            "hidden_size": 64,
+            "num_layers": 2,
+            "dropout": 0.2
+        }
+    },
+    "GRU": {
+        "RMSE": 6.25,
+        "MAE": 5.1,
+        "R2": 0.94,
+        "best_hyperparameters": {
+            "hidden_size": 32,
+            "num_layers": 1,
+            "dropout": 0.1
+        }
+    },
+    "BiGRU": {
+        "RMSE": 6.28,
+        "MAE": 5.15,
+        "R2": 0.93,
+        "best_hyperparameters": {
+            "hidden_size": 32,
+            "num_layers": 1,
+            "dropout": 0.1
+        }
+    }
+}
